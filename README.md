@@ -6,12 +6,12 @@ Deployment is carried out through FASTAPI, Docker and Render.
 
 When a user provides required information -can be found in FASTAPI documentation- the user will receive a price prediction.
 
-My api is accesible at https://ml-fastapi.onrender.com. When you go to this URL, you will see the Alive message.
+My api is accesible at https://predict-property-price.onrender.com. When you go to this URL, you will see the Alive message.
 
 
 # Installation 
 
-To have a working api for use of prediction model, you need to firts log into Render.
+To have a working api for use of prediction model, you need to first log into Render.
 
 You can log in with your Github account.
 
@@ -36,6 +36,6 @@ At /predict route, two commands exists : GET and POST.
 
 With GET command, the user will be able to see how real estate info should be provided (must-have features etc ).
 
-With POST command, the real estate info is provided and in return, the user will received price prediction based on his query.   
+With POST command, the real estate info is provided and in return, the user will receive price prediction based on his/her query.   
 
 
